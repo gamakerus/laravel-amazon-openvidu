@@ -1,0 +1,597 @@
+.btn-primary {
+    background-color: #4169e1;
+    box-shadow: 0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 10px -5px rgba(0, 188, 212, 0.4);
+}
+
+.btn-primary:hover {
+    background-color: #4169e1;
+    box-shadow: 0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 10px -5px rgba(0, 188, 212, 0.4);
+}
+
+.btn-primary:focus {
+    background-color: #4169e1;
+    box-shadow: 0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 10px -5px rgba(0, 188, 212, 0.4);
+}
+
+.btn-primary:active:hover {
+    background-color: #4169e1;
+    box-shadow: 0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 10px -5px rgba(0, 188, 212, 0.4);
+}
+
+.card .card-header-primary .card-icon,
+.card .card-header-primary:not(.card-header-icon):not(.card-header-text),
+.card .card-header-primary .card-text {
+    box-shadow: 0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 10px -5px rgba(4, 47, 255, 0.27);
+}
+
+.card .card-header-primary .card-icon,
+.card .card-header-primary .card-text,
+.card .card-header-primary:not(.card-header-icon):not(.card-header-text),
+.card.bg-primary,
+.card.card-rotate.bg-primary .front,
+.card.card-rotate.bg-primary .back {
+    background: #4169e1;
+}
+
+.nav li.active .nav-link {
+    box-shadow: 0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 10px -5px rgba(4, 47, 255, 0.27)!important;
+}
+
+.dropdown-menu .dropdown-item:hover,
+.dropdown-menu .dropdown-item:focus,
+.dropdown-menu a:hover,
+.dropdown-menu a:focus,
+.dropdown-menu a:active {
+    box-shadow: 0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 10px -5px rgba(4, 47, 255, 0.27)!important;
+}
+
+.login-page .card-login.card-hidden,
+.squestion-page .card-squestion.card-hidden,
+.register-page .card-register.card-hidden {
+    opacity: 0;
+    transform: translate3d(0, -60px, 0);
+}
+
+.login-page .card-login,
+.squestion-page .card-squestion,
+.register-page .card-register {
+    transform: translateZ(0);
+}
+
+.animation-transition-general,
+.lock-page .card-profile,
+.login-page .card-login,
+.squestion-page .card-squestion,
+.register-page .card-register,
+.sidebar .logo a.logo-mini,
+.sidebar .logo a.logo-normal,
+.sidebar .nav p,
+.sidebar .sidebar-wrapper .user .user-info [data-toggle=collapse]~div>ul>li>a span,
+.sidebar .sidebar-wrapper>.nav [data-toggle=collapse]~div>ul>li>a span,
+.sidebar .user .photo,
+.sidebar .user .user-info>a>span {
+    transition: all .3s linear;
+}
+
+.login-page,
+.squestion-page,
+.register-page {
+    background-image: url('../img/bg.jpg');
+    background-size: cover;
+    background-position: top center;
+}
+
+.subactive {
+    background-color: hsla(0, 0%, 78%, .2);
+}
+
+div.dataTables_wrapper div.dataTables_paginate ul.pagination {
+    margin: 2px 0;
+    white-space: nowrap;
+    justify-content: flex-end;
+}
+
+.pagination {
+    display: flex;
+    padding-left: 0;
+    list-style: none;
+    border-radius: .25rem;
+}
+
+.material-datatables .dataTables_paginate .pagination .paginate_button .page-link {
+    padding: 0 5px;
+    margin: 0;
+}
+
+.pagination>.page-item>.page-link,
+.pagination>.page-item>span {
+    border: 0;
+    border-radius: 30px!important;
+    transition: all .3s;
+    padding: 0 11px;
+    margin: 0 3px;
+    min-width: 30px;
+    height: 30px;
+    line-height: 30px;
+    color: #999;
+    font-weight: 400;
+    font-size: 12px;
+    text-transform: uppercase;
+    background: transparent;
+    text-align: center;
+}
+
+.material-datatables .dataTables_paginate .pagination .paginate_button .page-link {
+    padding: 0 5px;
+    margin: 0;
+}
+
+.pagination>.page-item.active>a,
+.pagination>.page-item.active>a:focus,
+.pagination>.page-item.active>a:hover,
+.pagination>.page-item.active>span,
+.pagination>.page-item.active>span:focus,
+.pagination>.page-item.active>span:hover {
+    background-color: #4169e1;
+    border-color: #4169e1;
+    color: #fff;
+    /* box-shadow: 0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 10px -5px rgba(4, 47, 255, 0.27); */
+}
+
+div.dataTables_wrapper div.dataTables_length label {
+    font-weight: 400;
+    text-align: left;
+    white-space: nowrap;
+}
+
+.form-check,
+label {
+    font-size: 14px;
+    line-height: 1.42857;
+    color: #aaa;
+    font-weight: 400;
+}
+
+.input-group-sm>.input-group-append>select.btn:not([size]):not([multiple]),
+.input-group-sm>.input-group-append>select.input-group-text:not([size]):not([multiple]),
+.input-group-sm>.input-group-prepend>select.btn:not([size]):not([multiple]),
+.input-group-sm>.input-group-prepend>select.input-group-text:not([size]):not([multiple]),
+.input-group-sm>select.form-control:not([size]):not([multiple]),
+select.form-control-sm:not([size]):not([multiple]) {
+    height: calc(2.125rem + 2px);
+}
+
+select.form-control:not([size]):not([multiple]) {
+    height: calc(2.4375rem + 2px);
+}
+
+div.dataTables_wrapper div.dataTables_length select {
+    width: auto;
+    display: inline-block;
+}
+
+div.dataTables_wrapper div.dataTables_filter {
+    text-align: right;
+}
+
+#questiontable_wrapper div.row,
+#sdurationtable_wrapper div.row,
+#daytoweektable_wrapper div.row,
+#timetodaytable_wrapper div.row,
+#licensetable_wrapper div.row,
+#exspectable_wrapper div.row,
+#languagetable_wrapper div.row,
+#ptrelationtable_wrapper div.row,
+#servicetable_wrapper div.row,
+#usertable_wrapper div.row,
+#providertable_wrapper div.row,
+#requesttable_wrapper div.row,
+
+#jobtable_wrapper div.row,
+#transactiontable_wrapper div.row,
+#notificationtable_wrapper div.row,
+#messagetable_wrapper div.row,
+#emailtable_wrapper div.row,
+#cancelrefundtable_wrapper div.row,
+#managertable_wrapper div.row {
+    margin: 0!important;
+}
+
+#questiontable tbody tr,
+#sdurationtable tbody tr,
+#daytoweektable tbody tr,
+#timetodaytable tbody tr,
+#licensetable tbody tr,
+#exspectable tbody tr,
+#languagetable tbody tr,
+#ptrelationtable tbody tr,
+#servicetable tbody tr,
+#usertable tbody tr,
+#providertable tbody tr,
+#requesttable tbody tr,
+
+#jobtable tbody tr,
+#transactiontable tbody tr,
+#notificationtable tbody tr,
+#messagetable tbody tr,
+#emailtable tbody tr,
+#cancelrefundtable tbody tr,
+#managertable tbody tr {
+    height: 50px;
+}
+
+.question_add,
+.sduration_add,
+.daytoweek_add,
+.timetoday_add,
+.license_add,
+.exspec_add,
+.language_add,
+.ptrelation_add,
+.service_add,
+.manager_add {
+    background-color: #4169e1;
+    box-shadow: 0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 10px -5px rgba(244, 67, 54, 0.4);
+    padding: 8px;
+    border-radius: 8px;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    top: 10px;
+    box-shadow: 0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 10px -5px rgba(4, 47, 255, 0.27)!important;
+}
+
+.modal-dialog .modal-header {
+    border-bottom: none;
+    padding: 24px 24px 0;
+}
+
+.modal-header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 1rem;
+    border-bottom: 1px solid #e9ecef;
+    border-top-left-radius: .3rem;
+    border-top-right-radius: .3rem;
+}
+
+.modal-dialog .modal-header .modal-title {
+    text-align: center;
+    width: 100%;
+}
+
+.modal-title {
+    margin-bottom: 0;
+    line-height: 1.5;
+}
+
+.modal .modal-header .close {
+    color: #999;
+}
+
+.modal-dialog .modal-header .close {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+}
+
+.modal-dialog .modal-body+.modal-footer {
+    padding-top: 0;
+}
+
+.modal-dialog .modal-footer {
+    border-top: none;
+    padding: 24px;
+}
+
+.modal-footer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 1rem;
+    border-top: 1px solid #e9ecef;
+}
+
+.bootstrap-select button {
+    background-color: #4169e1;
+}
+
+.bootstrap-select .dropdown-item.active {
+    background: #4169e1;
+    color: #fff;
+}
+
+.question_active,
+.sduration_active,
+.daytoweek_active,
+.timetoday_active,
+.license_active,
+.exspec_active,
+.language_active,
+.ptrelation_active,
+.jobstatus,
+.service_active,
+.user_active,
+.provider_active,
+.manager_active {
+    background-color: #4caf50;
+    box-shadow: 0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 10px -5px rgba(76, 175, 80, 0.4);
+    padding: 5px;
+    border-radius: 8px;
+    color: #fff;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.resetpwd {
+    background-color: #999;
+    box-shadow: 0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 10px -5px rgba(76, 175, 80, 0.4);
+    padding: 5px;
+    border-radius: 8px;
+    color: #fff;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+}
+
+.manager_roles {
+    background-color: #00cae3;
+    box-shadow: 0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 10px -5px rgba(76, 175, 80, 0.4);
+    padding: 5px;
+    border-radius: 8px;
+    color: #fff;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.question_deactive,
+.sduration_deactive,
+.daytoweek_deactive,
+.timetoday_deactive,
+.license_deactive,
+.exspec_deactive,
+.language_deactive,
+.ptrelation_deactive,
+.service_deactive,
+.user_deactive,
+.provider_deactive,
+.manager_deactive {
+    background-color: #f44336;
+    box-shadow: 0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 10px -5px rgba(76, 175, 80, 0.4);
+    padding: 5px;
+    border-radius: 8px;
+    color: #fff;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.question_edit,
+.sduration_edit,
+.daytoweek_edit,
+.timetoday_edit,
+.license_edit,
+.exspec_edit,
+.language_edit,
+.ptrelation_edit,
+.service_edit,
+.notification_edit,
+.message_edit,
+.user_ban,
+.reason_edit,
+.user_unban,
+.provider_ban,
+.provider_unban,
+.job_status,
+.transaction_status,
+.notification_status,
+.message_status,
+.email_status,
+.canrefpending,
+.cancelrefund_status,
+.manager_edit {
+    background-color: #ff9800;
+    box-shadow: 0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 10px -5px rgba(255, 152, 0, 0.4);
+    padding: 5px;
+    border-radius: 8px;
+    color: #fff;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+}
+
+.manager_sqedit,
+.user_service,
+.jobservice,
+.canrefsolved,
+.canref_refund,
+.reason_save,
+.requestdone,
+.provider_service {
+    background-color: #00cae3;
+    box-shadow: 0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 10px -5px rgba(76, 175, 80, 0.4);
+    padding: 5px;
+    border-radius: 8px;
+    color: #fff;
+    padding-left: 10px;
+    cursor: pointer;
+    padding-right: 10px;
+}
+
+.question_delete,
+.sduration_delete,
+.daytoweek_delete,
+.timetoday_delete,
+.license_delete,
+.exspec_delete,
+.language_delete,
+.ptrelation_delete,
+.service_delete,
+.user_delete,
+.notification_delete,
+.provider_delete,
+.job_delete,
+.transaction_delete,
+.canref_delete,
+.message_delete,
+.email_delete,
+.cancelrefund_delete,
+.manager_delete,
+.requestbefore,
+.reason_delete {
+    background-color: #f44336;
+    box-shadow: 0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 10px -5px rgba(244, 67, 54, 0.4);
+    padding: 5px;
+    border-radius: 8px;
+    color: #fff;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+}
+
+.user_view,
+.job_view,
+.transaction_view,
+.email_view,
+.notification_view,
+.message_view,
+.cancelrefund_view,
+.canref_view,
+.provider_view {
+    background-color: #4169e1;
+    box-shadow: 0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 10px -5px rgba(4, 47, 255, 0.27);
+    padding: 5px;
+    border-radius: 8px;
+    color: #fff;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+}
+
+.navbar-brand {
+    height: unset!important;
+}
+
+.logo_img {
+    width: 200px;
+}
+
+.downloaddiv .bootstrap-select {
+    width: 150px!important;
+}
+
+.card-avatar {
+    margin: -50px auto 0;
+    border-radius: 50%;
+    overflow: hidden;
+    padding: 0;
+    box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+}
+
+#provider_detail_modal h6,
+#job_detail_modal h6,
+#transaction_detail_modal h6,
+#canref_detail_modal h6,
+#user_detail_modal h6 {
+    color: #aaa;
+    text-transform: capitalize!important;
+}
+
+#provider_detail_modal h6 span,
+#job_detail_modal h6 span,
+#transaction_detail_modal h6 span,
+#canref_detail_modal h6 span,
+#user_detail_modal h6 span {
+    color: #000;
+}
+
+.tox-statusbar {
+    display: none!important;
+}
+
+.tox-tinymce {
+    /* box-shadow: 0 1px 4px 0 rgba(0, 0, 0, .14)!important; */
+    border-radius: 6px!important;
+    border: none!important;
+    height: 150px!important;
+}
+
+.tox:not([dir=rtl]) .tox-toolbar__group:not(:last-of-type) {
+    border-right: none!important;
+}
+
+.tox .tox-toolbar,
+.tox .tox-toolbar__overflow,
+.tox .tox-toolbar__primary {
+    background: none!important;
+}
+
+.chosenproviderimg,
+.chosenuserimg {
+    width: 100px;
+}
+
+.item_property {
+    padding: 2px 4px;
+    border-color: #4169e1;
+    border: 1px solid #4169e1;
+    border-radius: 3px;
+    margin-right: 5px;
+    color: #4169e1!important;
+    display: inline-block;
+    margin-top: 5px;
+    text-transform: capitalize!important;
+}
+
+.schedule_item,
+.requestservicedate {
+    font-size: 0.75rem;
+    color: #4169e1;
+    font-weight: 500;
+}
+
+.providertypeview,
+.providerserviceview,
+.requestservice,
+.backgroundcheckview,
+.usertypeview {
+    color: #4caf50;
+    font-weight: 600;
+}
+
+.alert-info {
+    z-index: 1500!important;
+}
+
+.providerpanel {
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.providerpanel:hover {
+    box-shadow: 0 1px 30px 0 rgba(0, 0, 0, .14);
+}
+.panel_active{
+    background-color: #4169e1;
+    color: #fff;
+    box-shadow: 0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 10px -5px rgba(4, 47, 255, 0.27)!important;
+}
+.font-500{
+    font-weight: 500!important;
+}
+.searchUsersdiv .dropdown-menu{
+    max-height: 300px!important;
+}
+.searchUsersdiv .filter-option-inner-inner{
+    color: #fff!important;
+}
+.text-grey{
+    color: #aaa;
+}
+.servicepanel{
+    padding: 15px;
+    border: 1px solid #ddd;
+    background: #fff;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
